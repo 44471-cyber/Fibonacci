@@ -1,0 +1,48 @@
+@import url("https://fontsgeek.com/dax-font");
+html, body {
+    margin: 0;
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/071/856/870/small/neon-studio-background-with-vibrant-colors-photo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1, input, button, p, footer {
+    font-family: "Dax", Sans-Serif;
+}
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 5rem;
+}
+input {
+    padding: 10px 20px;
+    font-size: 1rem;
+    max-width: 150px;
+    align-self: center;
+    margin: 7.5px;
+}
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1rem;
+    align-self: center;
+    max-width: 100px;
+}
+p, footer {
+    color: white;
+}
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 10px 20px;
+}
